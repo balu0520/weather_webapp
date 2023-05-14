@@ -1,0 +1,119 @@
+*{
+    font-family: "Roboto";
+}
+@keyframes spinner {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .loading-spinner {
+    width: 50px;
+    height: 50px;
+    border: 10px solid #f3f3f3; /* Light grey */
+    border-top: 10px solid #383636; /* Black */
+    border-radius: 50%;
+    animation: spinner 1.5s linear infinite;
+  }
+.bg-container{
+    background-color: #85C1E9;
+    min-height: 100vh;
+}
+  .location-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #85C1E9;
+  }
+  .spinner-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .current-city-container{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: #2E86C1 ;
+    border-radius: 12px;
+    margin: 20px;
+    padding: 20px;
+  }
+  .current-city{
+    color: #ffffff;
+    font-size: 18px;
+  }
+  .current-weather{
+    color: #ffffff;
+    font-size: 18px;
+  }
+  .current-temperature{
+    color: #ffffff;
+    font-size: 18px;
+  }
+  .current-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .current-humidity{
+    color: #ffffff;
+    font-size: 15px;
+  }
+  .current-wind{
+    color: #ffffff;
+    font-size: 15px;
+  }
+  .failure-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .failure-heading{
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 23px;
+  }
+  .favorite-locations-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    list-style-type: none;
+    background-color: #85C1E9;
+    width: 100%;
+  }
+  .favorite-item{
+    background-color: #2471A3;
+    border-radius: 12px;
+    padding: 20px;
+    color:#ffffff ;
+    cursor: pointer;
+    color: #ffffff;
+    margin: 15px;
+    width: 150px;
+    text-align: center;
+  }
+  
+  .favorite-heading{
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  .navigator-link{
+    color: #ffffff;
+    text-decoration: none;
+
+  }
+.fav-btn{
+  cursor: pointer;
+  background-color: transparent;
+}

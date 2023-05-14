@@ -1,0 +1,60 @@
+.loading-spinner {
+    width: 50px;
+    height: 50px;
+    border: 10px solid #f3f3f3; /* Light grey */
+    border-top: 10px solid #383636; /* Black */
+    border-radius: 50%;
+    animation: spinner 1.5s linear infinite;
+  }
+  .failure-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .failure-heading{
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 23px;
+  }
+  .favorite-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .favorite-city-container{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: #2E86C1 ;
+    border-radius: 12px;
+    margin: 20px;
+    padding: 20px;
+  }
+  .favorite-city{
+    color: #ffffff;
+    font-size: 18px;
+  }
+  .favorite-weather{
+    color: #ffffff;
+    font-size: 18px;
+  }
+  .favorite-temperature{
+    color: #ffffff;
+    font-size: 18px;
+  }
+  .favorite-container-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .favorite-humidity{
+    color: #ffffff;
+    font-size: 15px;
+  }
+  .favorite-wind{
+    color: #ffffff;
+    font-size: 15px;
+  }

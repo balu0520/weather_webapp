@@ -1,0 +1,32 @@
+.header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 20px;
+    background-color: #2471A3 ;
+}
+.weather-application{
+    font-family: "Roboto";
+    font-size: 25px;
+    color: #ffffff;
+}
+.search-loc-btn{
+    border-width: 0;
+    background-color: #85C1E9;
+    border-radius: 6px;
+    width: 135px;
+    height: 40px;
+    cursor: pointer;
+    outline: none;
+    color: #ffffff;
+    font-size: 17px;
+    font-family: "Roboto";
+}
+.button-container{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
