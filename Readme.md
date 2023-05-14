@@ -1,3 +1,4 @@
+application link : https://calm-cendol-1ac898.netlify.app/
 Note: This is an weather application, It will get the co-ordinates of your location and shows the weather, So you have allow the web browser to access your location. This application uses openWeatherMap API , if number of calls per day exceeds then the api will temporary blocked
 
 #Creation of React Project
